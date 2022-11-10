@@ -1,0 +1,5 @@
+{
+  "common": "https://api.themoviedb.org/3/",
+  "genres": "/list?api_key=22ea2549bcc9eb8287eb91d37729b659",
+  "apiKey": "?api_key=22ea2549bcc9eb8287eb91d37729b659"
+}

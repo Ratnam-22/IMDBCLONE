@@ -1,0 +1,141 @@
+.navbar-brand {
+  padding-right: 2em;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.search-box {
+  padding-left: 25px !important;
+  /* border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  margin-right: 0.4rem; */
+}
+
+.pad-left {
+  padding: 0em 0em 0em 2em;
+}
+
+.nav-link:hover {
+  transform: scale(1.07);
+  opacity: 1;
+}
+
+.active {
+  transform: scale(1.07);
+  opacity: 1;
+}
+
+.sign-in {
+  background-color: #f5c01f;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  width: 7em;
+  opacity: 0.95;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.sign-in:hover {
+  color: rgb(255, 255, 255);
+}
+
+.behind {
+  margin-right: -0.35em;
+  margin-left: 0.31em;
+  height: 2.83em;
+  position: relative;
+  z-index: 0;
+  margin-top: 0rem;
+  font-size: 0.875em;
+  border-radius: 2.5px;
+}
+
+.front {
+  margin-top: -2.7rem;
+}
+
+.navs {
+  color: #ffffff;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin-right: 1.5em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.navs:hover {
+  background-color: #f5c01f;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  opacity: 0.8;
+}
+
+.navs-active {
+  background-color: #f5c01f;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  opacity: 1;
+  transform: scale(1.07);
+  box-shadow: 2.5px 1.5px;
+}
+
+.navs-active:hover {
+  opacity: 1;
+}
+
+#input_container {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+}
+
+.magnifying-glass {
+  height: 1.9em;
+  width: 1.9em;
+  margin-right: 0.4rem;
+  color: #343a40;
+}
+
+@media screen and (max-width: 991px) {
+  .pad-left {
+    padding: 0px 0px 0px 10px;
+  }
+
+  .last {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    padding-right: 0em;
+  }
+
+  .pad-left {
+    padding: 0em;
+  }
+
+  .form-control {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .sign-in {
+    width: auto;
+  }
+
+  .nav-pills .nav-item {
+    flex-basis: 1;
+    flex-grow: 1;
+    text-align: center;
+  }
+}
